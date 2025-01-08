@@ -1,0 +1,3 @@
+# SQL NULL Value Handling Error
+This repository demonstrates a common error in SQL queries involving NULL values. The `bug.sql` file contains a query that unintentionally omits employees with NULL salaries, even when those employees belong to the Sales department and satisfy other conditions.
+The solution, located in `bugSolution.sql`, addresses this using the IS NULL or IS NOT NULL operators in combination with the other conditional checks. This ensures that the query returns the correct, complete set of results.  This example highlights the importance of careful NULL handling in SQL to avoid unexpected and inaccurate query results.
